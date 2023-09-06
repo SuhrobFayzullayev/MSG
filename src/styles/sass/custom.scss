@@ -1,0 +1,238 @@
+.nav-link {
+  position: relative;
+  overflow: hidden;
+  height: 35px;
+
+  a {
+    display: block;
+  }
+  .div,
+  a {
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  & > a:after,
+  & > .div:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #d60000;
+    transition: all 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &:hover {
+    overflow: visible;
+    & > a,
+    & > .div {
+      color: #d60000;
+      &:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  &.active {
+    & > a,
+    & > .div {
+      color: #d60000;
+
+      &::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  &.nav-link-responsive {
+    &.active {
+      .dropdown {
+        display: block;
+      }
+      & > a,
+      & > .head {
+        color: #d60000;
+
+        svg {
+          fill: #d60000;
+          transform: rotateZ(180deg);
+        }
+      }
+    }
+
+    &.active-link {
+      & > a,
+      & > .head {
+        color: #d60000;
+
+        svg {
+          fill: #d60000;
+        }
+      }
+    }
+
+    width: 100%;
+    & > a:after,
+    .div:after {
+      display: none;
+    }
+
+    margin: 10px 0;
+    height: fit-content !important;
+    overflow: visible;
+
+    .dropdown {
+      width: 100% !important;
+      position: static;
+      background-color: white;
+      padding: 5px 20px;
+      display: none;
+    }
+  }
+
+  &.w-fit {
+    width: fit-content;
+  }
+
+  .dropdown {
+    cursor: default;
+    position: absolute;
+    z-index: 9;
+    top: 35px;
+    left: 0;
+    width: 300px;
+    height: fit-content;
+    padding: 15px 20px;
+    background-color: #f6f6f6;
+    display: block;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 1px 6px 15px -5px rgba(34, 60, 80, 0.12);
+
+    a {
+      display: block;
+      width: fit-content;
+      margin: 8px 0;
+    }
+  }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 40px !important;
+  color: rgba(255, 255, 255, 0.541);
+  transition: all 0.1s linear;
+}
+.swiper-button-next:hover:after,
+.swiper-button-prev:hover:after {
+  color: white;
+}
+
+.swiper-pagination {
+  bottom: 60px !important;
+  .swiper-pagination-bullet {
+    width: 32px;
+    height: 12px;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: #d2d4d7c5;
+    margin: 0 !important;
+    margin-right: 20px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 45px;
+    background-color: #f7c800;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.radio-buttons {
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+
+  label::before,
+  label::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+  }
+
+  label::before {
+    background-color: white;
+    border-radius: 35%;
+    transition: border-color 400ms ease;
+    border: 1px solid #d6d6d6;
+  }
+
+  label::after {
+    background-color: #d60000;
+    border-radius: 50%;
+    transform: translateY(-50%) scale(0);
+    transition: transform 200ms ease;
+  }
+
+  input[type="radio"]:checked + label::after,
+  input[type="checkbox"]:checked + label::after {
+    transform: translateY(-50%) scale(0.6);
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 30px !important;
+  }
+
+  .swiper-pagination {
+    bottom: 40px !important;
+  }
+}
+@media (max-width: 576px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 25px !important;
+  }
+
+  .swiper-pagination {
+    bottom: 30px !important;
+    .swiper-pagination-bullet {
+      width: 25px;
+      height: 10px;
+      margin-right: 15px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      width: 35px;
+    }
+  }
+
+  #videoWrapper {
+    height: 250px !important;
+  }
+}
