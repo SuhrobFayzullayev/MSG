@@ -34,10 +34,10 @@
   width: 100%;
   left: 0;
 }
-.nav-link.active > a, .nav-link.active > .div {
+.nav-link.active-link > a, .nav-link.active-link > .div {
   color: #d60000;
 }
-.nav-link.active > a::after, .nav-link.active > .div::after {
+.nav-link.active-link > a::after, .nav-link.active-link > .div::after {
   width: 100%;
   left: 0;
 }

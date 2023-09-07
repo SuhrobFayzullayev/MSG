@@ -809,19 +809,14 @@ body,
   margin-bottom: 1.25rem;
 }
 
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .-ml-\[2px\] {
@@ -1068,24 +1063,12 @@ body,
   max-height: 340px;
 }
 
-.max-h-\[75px\] {
-  max-height: 75px;
-}
-
 .max-h-\[500px\] {
   max-height: 500px;
 }
 
-.max-h-\[400px\] {
-  max-height: 400px;
-}
-
-.max-h-\[450px\] {
-  max-height: 450px;
-}
-
-.max-h-\[470px\] {
-  max-height: 470px;
+.max-h-\[75px\] {
+  max-height: 75px;
 }
 
 .min-h-full {
