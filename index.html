@@ -18,7 +18,7 @@
 
   <div class="w-full mx-auto wrapper-fluid overflow-hidden relative flex min-h-screen flex-col">
     <!-- heder start -->
-    <div class="header relative">
+    <div class="header bg-white w-full mx-auto fixed top-0 z-50">
       <div class="header-top px-3">
         <div class="header-content mx-auto max-w-screen-xl header-top py-3 flex justify-between items-center">
           <a href="./index.html" class="logo block sm:w-[200px] max-sm:w-[150px]">
@@ -285,20 +285,7 @@
             <!-- foreach start -->
 
             <div class="swiper-slide w-full h-full mx-auto relative">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" class="w-full h-full object-cover" />
-              <div
-                class="text-block absolute  [@media(max-width:1400px)]:px-16 left-1/2 top-1/2 -translate-x-1/2  -translate-y-1/2 max-w-screen-xl h-full w-full flex justify-start items-center">
-                <div class="text-content w-fit h-fit">
-                  <div class="title md:text-[60px] sm:text-[40px] max-sm:text-[30px] h-fit text-white font-[700]">High
-                    quality</div>
-                  <div class="description text-[20px] max-sm:text-[16px] text-white">Medical services</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- this is remove -->
-            <div class="swiper-slide w-full h-full mx-auto relative">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" class="w-full h-full object-cover" />
+              <img src="./src/public/images/slider-img-1.png" class="w-full h-full object-cover" />
               <div
                 class="text-block absolute  [@media(max-width:1400px)]:px-16 left-1/2 top-1/2 -translate-x-1/2  -translate-y-1/2 max-w-screen-xl h-full w-full flex justify-start items-center">
                 <div class="text-content w-fit h-fit">
@@ -347,8 +334,7 @@
 
           <div
             class="col overflow-hidden [@media(min-width:850px)]:w-[48%] [@media(max-width:850px)]:w-full [@media(min-width:850px)]:h-full [@media(min-width:768px)]:h-[500px] [@media(min-width:576px)]:h-[400px] [@media(max-width:576px)]:h-[300px]">
-            <img src="http://uybozorim.sosgroup.uz/upload/page/21-08-2023/page.jpg" alt=""
-              class="w-full h-full object-cover" />
+            <img src="./src/public/images/hospital-img.png" alt="" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
@@ -359,9 +345,6 @@
         </div>
 
         <div class="servises-wrapper mx-auto max-w-screen-xl mt-5 w-full flex flex-wrap">
-
-          <!-- foreach start -->
-
           <div
             class="servises text-center [@media(max-width:576px)]:w-full [@media(min-width:576px)]:w-1/2 [@media(min-width:768px)]:w-1/3 [@media(min-width:992px)]:w-1/4 p-3">
             <div
@@ -384,8 +367,72 @@
               </a>
             </div>
           </div>
-
-          <!-- foreach end -->
+          <div
+            class="servises text-center [@media(max-width:576px)]:w-full [@media(min-width:576px)]:w-1/2 [@media(min-width:768px)]:w-1/3 [@media(min-width:992px)]:w-1/4 p-3">
+            <div
+              class="services-content flex min-h-full flex-col w-full h-full bg-white rounded-md shadow-[0_2px_14px_0px_rgba(0,0,0,0.10)] px-5 py-7">
+              <div class="body w-full mb-3">
+                <div class="icon mx-auto w-[80px] h-[80px]">
+                  <img src="./src/public/icons/services-icon-1.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text text-[20px] mt-5 font-[500]">Diseases / Diagnostics</div>
+              </div>
+              <a href="./diagnostics.html"
+                class="more w-fit mx-auto flex justify-center items-center text-cred mt-auto uppercase font-[600]">
+                more
+                <span class="ml-2 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+                    <path d="M1 11L6.02092 6L1 1" stroke="#D60000" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="servises text-center [@media(max-width:576px)]:w-full [@media(min-width:576px)]:w-1/2 [@media(min-width:768px)]:w-1/3 [@media(min-width:992px)]:w-1/4 p-3">
+            <div
+              class="services-content flex min-h-full flex-col w-full h-full bg-white rounded-md shadow-[0_2px_14px_0px_rgba(0,0,0,0.10)] px-5 py-7">
+              <div class="body w-full mb-3">
+                <div class="icon mx-auto w-[80px] h-[80px]">
+                  <img src="./src/public/icons/services-icon-1.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text text-[20px] mt-5 font-[500]">Information for patients</div>
+              </div>
+              <a href="./information.html"
+                class="more w-fit mx-auto flex justify-center items-center text-cred mt-auto uppercase font-[600]">
+                more
+                <span class="ml-2 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+                    <path d="M1 11L6.02092 6L1 1" stroke="#D60000" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="servises text-center [@media(max-width:576px)]:w-full [@media(min-width:576px)]:w-1/2 [@media(min-width:768px)]:w-1/3 [@media(min-width:992px)]:w-1/4 p-3">
+            <div
+              class="services-content flex min-h-full flex-col w-full h-full bg-white rounded-md shadow-[0_2px_14px_0px_rgba(0,0,0,0.10)] px-5 py-7">
+              <div class="body w-full mb-3">
+                <div class="icon mx-auto w-[80px] h-[80px]">
+                  <img src="./src/public/icons/services-icon-1.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text text-[20px] mt-5 font-[500]">Trainings for medical personnel</div>
+              </div>
+              <a href="./trainings.html"
+                class="more w-fit mx-auto flex justify-center items-center text-cred mt-auto uppercase font-[600]">
+                more
+                <span class="ml-2 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+                    <path d="M1 11L6.02092 6L1 1" stroke="#D60000" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
 
         </div>
       </div>
