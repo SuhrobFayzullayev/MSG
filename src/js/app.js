@@ -136,6 +136,7 @@ console.log(contactsLink[1]);
 
 const linksData = {
   forHome: [
+    "/",
     "/uz",
     "/en",
     "/ru",
