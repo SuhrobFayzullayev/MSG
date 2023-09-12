@@ -140,58 +140,69 @@ const linksData = {
     "/uz",
     "/en",
     "/ru",
+    "/de",
 
     "/index",
     "/uz/index",
     "/ru/index",
     "/en/index",
+    "/de/index",
 
     "/index.html",
     "/uz/index.html",
     "/ru/index.html",
     "/en/index.html",
+    "/de/index.html",
   ],
 
   forServices: [
     "/treatment",
-    "uz/treatment",
-    "ru/treatment",
-    "en/treatment",
+    "/uz/treatment",
+    "/ru/treatment",
+    "/en/treatment",
+    "/de/treatment",
 
     "/treatment.html",
     "/uz/treatment.html",
     "/ru/treatment.html",
     "/en/treatment.html",
+    "/de/treatment.html",
 
     "/diagnostics",
     "/uz/diagnostics",
     "/ru/diagnostics",
     "/en/diagnostics",
+    "/de/diagnostics",
 
     "/diagnostics.html",
     "/uz/diagnostics.html",
     "/ru/diagnostics.html",
     "/en/diagnostics.html",
+    "/de/diagnostics.html",
 
     "/information",
     "/uz/information",
     "/ru/information",
     "/en/information",
+    "/de/information",
 
     "/information.html",
     "/uz/information.html",
     "/ru/information.html",
     "/en/information.html",
+    "/de/information.html",
 
     "/trainings",
     "/uz/trainings",
-    "ru/trainings",
-    "en/trainings",
+    "/ru/trainings",
+    "/en/trainings",
+    "/de/trainings",
 
     "/trainings.html",
     "/uz/trainings.html",
-    "ru/trainings.html",
-    "en/trainings.html",
+    "/ru/trainings.html",
+    "/en/trainings.html",
+    "/de/trainings.html",
   ],
 
   forCooperations: [
@@ -199,21 +210,25 @@ const linksData = {
     "/uz/partners",
     "/ru/partners",
     "/en/partners",
+    "/de/partners",
 
     "/partners.html",
     "/uz/partners.html",
     "/ru/partners.html",
     "/en/partners.html",
+    "/de/partners.html",
 
     "/offer",
     "/uz/offer",
     "/ru/offer",
     "/en/offer",
+    "/de/offer",
 
     "/offer.html",
     "/uz/offer.html",
     "/ru/offer.html",
     "/en/offer.html",
+    "/de/offer.html",
   ],
 
   forAbout: [
@@ -221,31 +236,37 @@ const linksData = {
     "/uz/team",
     "/ru/team",
     "/en/team",
+    "/de/team",
 
     "/team.html",
     "/uz/team.html",
     "/ru/team.html",
     "/en/team.html",
+    "/de/team.html",
 
     "/documents",
     "/uz/documents",
     "/ru/documents",
     "/en/documents",
+    "/de/documents",
 
     "/documents.html",
     "/uz/documents.html",
     "/ru/documents.html",
     "/en/documents.html",
+    "/de/documents.html",
 
     "/faq",
     "/uz/faq",
     "/ru/faq",
     "/en/faq",
+    "/de/faq",
 
     "/faq.html",
     "/uz/faq.html",
     "/ru/faq.html",
     "/en/faq.html",
+    "/de/faq.html",
   ],
 
   forContacts: [
@@ -253,11 +274,13 @@ const linksData = {
     "/uz/contacts",
     "/ru/contacts",
     "/en/contacts",
+    "/de/contacts",
 
     "/contacts.html",
     "/uz/contacts.html",
     "/ru/contacts.html",
     "/en/contacts.html",
+    "/de/contacts.html",
   ],
 };
 

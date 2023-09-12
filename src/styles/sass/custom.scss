@@ -2,9 +2,12 @@
   position: relative;
   overflow: hidden;
   height: 35px;
+  text-transform: lowercase !important;
 
-  a {
+  a,
+  div {
     display: block;
+    text-transform: lowercase !important;
   }
   .div,
   a {
