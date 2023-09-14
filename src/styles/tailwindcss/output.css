@@ -1063,6 +1063,10 @@ body,
   max-height: 125px;
 }
 
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
 .max-h-\[340px\] {
   max-height: 340px;
 }
@@ -1071,8 +1075,16 @@ body,
   max-height: 500px;
 }
 
-.max-h-\[75px\] {
-  max-height: 75px;
+.max-h-\[100px\] {
+  max-height: 100px;
+}
+
+.max-h-\[220px\] {
+  max-height: 220px;
+}
+
+.max-h-\[240px\] {
+  max-height: 240px;
 }
 
 .min-h-full {
