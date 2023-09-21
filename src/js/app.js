@@ -132,7 +132,6 @@ const servicesLink = document.querySelectorAll(".services-link");
 const cooperationsLink = document.querySelectorAll(".cooperations-link");
 const aboutLink = document.querySelectorAll(".about-link");
 const contactsLink = document.querySelectorAll(".contacts-link");
-console.log(contactsLink[1]);
 
 const linksData = {
   forHome: [
@@ -300,3 +299,12 @@ for (let i = 0; i < 2; i++) {
   checkAvtiveLink(linksData.forAbout, aboutLink?.[i]);
   checkAvtiveLink(linksData.forContacts, contactsLink?.[i]);
 }
+
+const langEn = document.getElementById("langEn");
+const langRu = document.getElementById("langRu");
+const langDe = document.getElementById("langDe");
+
+if (loc.slice(1, 3) == "en") langEn.classList.add("active");
+else if (loc.slice(1, 3) == "ru") langRu.classList.add("active");
+else if (loc.slice(1, 3) == "de") langDe.classList.add("active");
+else langDe.classList.add("active");

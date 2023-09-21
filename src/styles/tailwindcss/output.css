@@ -1063,8 +1063,8 @@ body,
   max-height: 125px;
 }
 
-.max-h-\[200px\] {
-  max-height: 200px;
+.max-h-\[240px\] {
+  max-height: 240px;
 }
 
 .max-h-\[340px\] {
@@ -1073,18 +1073,6 @@ body,
 
 .max-h-\[500px\] {
   max-height: 500px;
-}
-
-.max-h-\[100px\] {
-  max-height: 100px;
-}
-
-.max-h-\[220px\] {
-  max-height: 220px;
-}
-
-.max-h-\[240px\] {
-  max-height: 240px;
 }
 
 .min-h-full {
@@ -3319,6 +3307,11 @@ body,
 .\[\&\.active\]\:text-black.active {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.\[\&\.active\]\:text-cred.active {
+  --tw-text-opacity: 1;
+  color: rgb(214 0 0 / var(--tw-text-opacity));
 }
 
 .\[\&\.open-canvas\]\:-translate-x-\[0px\].open-canvas {
