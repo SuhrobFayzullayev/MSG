@@ -234,6 +234,18 @@ const linksData = {
   ],
 
   forAbout: [
+    "/about",
+    "/uz/about",
+    "/ru/about",
+    "/en/about",
+    "/de/about",
+
+    "/about.html",
+    "/uz/about.html",
+    "/ru/about.html",
+    "/en/about.html",
+    "/de/about.html",
+
     "/team",
     "/uz/team",
     "/ru/team",

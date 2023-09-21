@@ -2,11 +2,6 @@
   position: relative;
   overflow: hidden;
   height: 35px;
-  text-transform: lowercase !important;
-}
-.nav-link a,
-.nav-link div {
-  text-transform: lowercase !important;
 }
 .nav-link .div,
 .nav-link a {
