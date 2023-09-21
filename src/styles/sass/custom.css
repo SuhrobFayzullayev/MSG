@@ -6,7 +6,6 @@
 }
 .nav-link a,
 .nav-link div {
-  display: block;
   text-transform: lowercase !important;
 }
 .nav-link .div,

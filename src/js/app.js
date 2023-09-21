@@ -132,6 +132,9 @@ const servicesLink = document.querySelectorAll(".services-link");
 const cooperationsLink = document.querySelectorAll(".cooperations-link");
 const aboutLink = document.querySelectorAll(".about-link");
 const contactsLink = document.querySelectorAll(".contacts-link");
+const langEn = document.querySelectorAll(".langEn");
+const langRu = document.querySelectorAll(".langRu");
+const langDe = document.querySelectorAll(".langDe");
 
 const linksData = {
   forHome: [
@@ -292,19 +295,18 @@ function checkAvtiveLink(arr, link) {
   }
 }
 
+function activeLang(id) {
+  if (loc.slice(1, 3) == "en") langEn[id].classList.add("active");
+  else if (loc.slice(1, 3) == "ru") langRu[id].classList.add("active");
+  else if (loc.slice(1, 3) == "de") langDe[id].classList.add("active");
+  else langDe[id].classList.add("active");
+}
+
 for (let i = 0; i < 2; i++) {
   checkAvtiveLink(linksData.forHome, homeLink?.[i]);
   checkAvtiveLink(linksData.forServices, servicesLink?.[i]);
   checkAvtiveLink(linksData.forCooperations, cooperationsLink?.[i]);
   checkAvtiveLink(linksData.forAbout, aboutLink?.[i]);
   checkAvtiveLink(linksData.forContacts, contactsLink?.[i]);
+  activeLang(i);
 }
-
-const langEn = document.getElementById("langEn");
-const langRu = document.getElementById("langRu");
-const langDe = document.getElementById("langDe");
-
-if (loc.slice(1, 3) == "en") langEn.classList.add("active");
-else if (loc.slice(1, 3) == "ru") langRu.classList.add("active");
-else if (loc.slice(1, 3) == "de") langDe.classList.add("active");
-else langDe.classList.add("active");
